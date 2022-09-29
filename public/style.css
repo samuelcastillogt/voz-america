@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+}
+footer{
+     background: linear-gradient(to right, #3498DB, #1C6EA4);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-size: 1.2em;
+     padding: 20px;
+     -webkit-box-shadow: 5px -6px 15px 5px rgba(0,0,0,0.83); 
+box-shadow: 5px -6px 15px 5px rgba(0,0,0,0.83);
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.hero{
+    background: ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content:flex-end;
+    color: aliceblue;
+    align-items: flex-end;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88);
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    color: aliceblue;
+    align-items: flex-end;
+    padding: 20px;
+    font-family: bebas;
+    background: linear-gradient(to right, #3498DB, #1C6EA4);
+    padding: 10px;
+}
+.hero-text h1{
+    font-size: 2.5em;
+}
+.menu{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 80px;
+    height: 80px;
+}
+.cluster{
+    display: flex;
+    padding: 20px;
+}
+.card{
+    width: 300px;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.88);
+}
+.card img{
+    width: 80%;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+
+}
+.modal img{
+   width: 90px;
+
+}
+.modal p{
+    margin: 10px;
+}
+p{
+    padding: 10px;
+}
+h2{
+    padding: 10px;
+}
+.img-responsive{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+.container-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid#1C6EA4;
+    padding: 10px;
+}
+.container-img img{
+    width: 300px;
+}
+.container-text{
+    width: 40%;
+}
+@media only screen and (max-width: 700px) {
+   .cluster{
+       overflow: scroll;
+   }
+    .card{
+       display: inline-block;
+
+   }
+   .container-text{
+       width: 90%;
+   }
+  }
